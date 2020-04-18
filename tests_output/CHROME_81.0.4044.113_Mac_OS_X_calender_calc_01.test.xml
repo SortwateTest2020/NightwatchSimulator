@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="calender_calc_01.test"
+    errors="0" failures="1" hostname="" id="" package="calender_calc_01.test" skipped="0"
+    tests="1" time="27.82" timestamp="">
+  
+    <testcase name="2020" classname="calender_calc_01.test" time="27.82" assertions="3">
+
+    
+
+      <failure message="Testing if element [0;33m&lt;#result1&gt;[0m contains text [0;33m&#39;2020年6月26日星期五&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;2020年6月26日星期五&#39;&#34;[0m but got: [0;31m&#34;does not contain &#39;2020年6月26日星期五&#39;&#34;[0m [0;90m(5267ms)[0m">    at Object.2020 (/Users/Miao/Projects/Github/Script/case/calender_calc_01.test.js:21:17)
+    at &lt;anonymous&gt;</failure>
+
+    
+      <failure message="    at Object.2020 (/Users/Miao/Projects/Github/Script/case/calender_calc_01.test.js:21:17)">    at &lt;anonymous&gt;</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

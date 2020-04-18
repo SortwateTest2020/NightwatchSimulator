@@ -575,7 +575,8 @@
     "require-directory": "^2.1.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "e2e": "nightwatch"
   },
   "repository": {
     "type": "git",

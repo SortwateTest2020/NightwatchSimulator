@@ -1,5 +1,6 @@
 // http://nightwatchjs.org/gettingstarted#settings-file
 module.exports = {
+  src_folders: ['case'],
   'webdriver': {
     'server_path': './chromedriver', // 浏览器 driver 的 bin 执行路径
     'start_process': true, // 需要启动 driver
