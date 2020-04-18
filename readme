@@ -1,0 +1,3 @@
+Download the chromedriver at according to your chrome version and os
+http://chromedriver.storage.googleapis.com/index.html
+and put the driver at the root directory
