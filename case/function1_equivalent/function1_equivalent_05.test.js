@@ -10,13 +10,13 @@ const calc_button = 'body > div.container.grid-sm.s-content > div.column.col-12 
 
 // test case 01
 let input = {}
-input["year"] = 2004
+input["year"] = 1997
 input["month"] = 8
 input["date"] = 16
 input["span"] = -100
-let expected = "2004年5月8日星期六"
+let expected = "1997年5月8日星期四"
 module.exports = {
-    'test_case_01':  function (browser) {
+    'test_case_05':  function (browser) {
       browser
         .url(test_web_url)
         .setValue('#SY', input["year"])

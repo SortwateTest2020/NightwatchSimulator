@@ -13,10 +13,10 @@ let input = {}
 input["year"] = 2004
 input["month"] = 8
 input["date"] = 16
-input["span"] = -100
-let expected = "2004年5月8日星期六"
+input["span"] = 100
+let expected = "2004年11月24日星期三"
 module.exports = {
-    'test_case_01':  function (browser) {
+    'test_case_02':  function (browser) {
       browser
         .url(test_web_url)
         .setValue('#SY', input["year"])
