@@ -1,4 +1,4 @@
-// boundary test for function 1
+// equivalent test for function 1
 // what is the date after @input["sapn"] day
 // of a given date in input
 

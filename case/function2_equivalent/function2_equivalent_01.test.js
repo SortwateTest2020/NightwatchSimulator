@@ -1,6 +1,6 @@
-// boundary test for function 1
-// what is the date after @input["sapn"] day
-// of a given date in input
+// equivalent test for function 2
+// what is the time span in day
+// between two given dates within input
 
 // constants:
 // 1. the url of test web site
