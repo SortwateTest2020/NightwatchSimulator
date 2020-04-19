@@ -8,7 +8,7 @@ const test_web_url = 'http://www.beijing-time.org/riqi.htm'
 // 2. the js path of calculate button
 const calc_button = 'body > div.container.grid-sm.s-content > div.column.col-12 > article > div > div:nth-child(2) > input[type=button]:nth-child(9)'
 
-// test case 01
+// test case 22
 let input = {}
 input["year"] = 2020
 input["month"] = 4
@@ -16,7 +16,7 @@ input["date"] = 30
 input["span"] = 1
 let expected = "2020年5月1日星期五"
 module.exports = {
-    'test_case_01':  function (browser) {
+    'test_case_22':  function (browser) {
       browser
         .url(test_web_url)
         .setValue('#SY', input["year"])
