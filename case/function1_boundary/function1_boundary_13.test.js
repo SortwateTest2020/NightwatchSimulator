@@ -10,11 +10,11 @@ const calc_button = 'body > div.container.grid-sm.s-content > div.column.col-12 
 
 // test case 13
 let input = {}
-input["year"] = 275865
+input["year"] = 276500
 input["month"] = 1
 input["date"] = 1
 input["span"] = 1
-let expected = "275865年1月2日星期四"
+let expected = "276500年1月2日星期六"
 module.exports = {
     'test_case_13':  function (browser) {
       browser
