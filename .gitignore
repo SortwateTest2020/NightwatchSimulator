@@ -1,4 +1,6 @@
 node_modules
 chromedriver
-
-./node_modules/.bin/nightwatch  case/sample.js
+output
+reports
+chromedriver.log
+*.log
