@@ -3,11 +3,11 @@
             failures="0"
             tests="1">
 
-  <testsuite name="function1_equivalent.function1_equivalent_68.test"
+  <testsuite name="function1_equivalent.function1_equivalent_37.test"
     errors="0" failures="0" hostname="" id="" package="function1_equivalent" skipped="0"
-    tests="1" time="1.107" timestamp="">
+    tests="1" time="1.183" timestamp="">
   
-    <testcase name="test_case_68" classname="function1_equivalent.function1_equivalent_68.test" time="1.107" assertions="1">
+    <testcase name="test_case_37" classname="function1_equivalent.function1_equivalent_37.test" time="1.183" assertions="1">
 
     
     </testcase>
