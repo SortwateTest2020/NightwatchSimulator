@@ -13,8 +13,8 @@ let input = {}
 input["year"] = 1900
 input["month"] = 1
 input["date"] = 1
-input["span"] = -99990000
-let expected = "275760年9月12日星期五"
+input["span"] = -100265000
+let expected = "-272617年2月3日星期日"
 module.exports = {
     'test_case_06':  function (browser) {
       browser
