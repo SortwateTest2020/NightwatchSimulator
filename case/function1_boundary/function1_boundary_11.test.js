@@ -14,7 +14,7 @@ input["year"] = 99
 input["month"] = 1
 input["date"] = 1
 input["span"] = 1
-let expected = "1999年1月2日星期六"
+let expected = "99年1月2日星期五"
 module.exports = {
     'test_case_11':  function (browser) {
       browser
