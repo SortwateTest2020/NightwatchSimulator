@@ -10,15 +10,15 @@ const calc_button = 'body > div.container.grid-sm.s-content > div.column.col-12 
 
 // test case 01
 let input = {}
-input["year1"] = 2010
+input["year1"] = 2018
 input["month1"] = 2
-input["date1"] = 5
-input["year2"] = 2010
+input["date1"] = 30
+input["year2"] = 2012
 input["month2"] = 2
-input["date2"] = 28
-let expected = "23"
+input["date2"] = 29
+let expected = "NaN"
 module.exports = {
-    'test_case_01':  function (browser) {
+    'test_case_14':  function (browser) {
       browser
         .url(test_web_url)
         .setValue('#SY2', input["year1"])
