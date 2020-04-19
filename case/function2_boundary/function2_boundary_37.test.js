@@ -10,13 +10,13 @@ const calc_button = 'body > div.container.grid-sm.s-content > div.column.col-12 
 
 // test case 01
 let input = {}
-input["year1"] = 1000
+input["year1"] = 2012
 input["month1"] = 6
-input["date1"] = 16
-input["year2"] = 1000
+input["date1"] = 15
+input["year2"] = 2012
 input["month2"] = 8
-input["date2"] = 14
-let expected = "59"
+input["date2"] = 2
+let expected = "48"
 module.exports = {
     'test_case_01':  function (browser) {
       browser
