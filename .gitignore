@@ -4,3 +4,4 @@ output
 reports
 chromedriver.log
 *.log
+.idea
